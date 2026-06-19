@@ -1,0 +1,36 @@
+.drag-box{
+    width: 100%;
+    height: 220px;
+    border: 2px dashed black;
+    background-color: #b7f1e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.addproduct-img{
+    width:100px;
+    height:150px;
+    display: flex;
+    gap:20px;
+}
+.addproduct{
+ position: relative;
+ width:100px;
+ height:100px;
+ border-radius: 10px;
+}
+.add-img{
+ width:100px;
+ height:100px;
+ border-radius: 10px;
+
+}
+.cancel-btn{
+    background-color: aqua;
+    position: absolute;
+    top:10px;
+    right: 10px;
+    color: brown;
+}

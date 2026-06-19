@@ -1,0 +1,535 @@
+@media screen and (max-width:450px){
+
+.navbar{
+    flex-direction: column;
+    padding: 15px;
+    gap: 15px;
+}
+
+.nav-logo{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.nav-links{
+    width: 100%;
+}
+
+.nav-menu{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-label{
+    font-size: 1rem;
+}
+
+/* home page section1 */
+.home-page{
+    height: auto;
+    padding-top:50%;
+
+}
+
+.left{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.right{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+
+.hero-text{
+    position: relative;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-text h1{
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.home-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.bg-circle{
+    width: 250px;
+    height: 250px;
+    right: 20%;
+    top: 55%;
+}
+
+.hero-btn,
+.hero-btn2{
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+
+/* home 2 section */
+.premium-heding{
+    font-size: 1.5rem;
+}
+
+.category-shades{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.category-card{
+    width: 90%;
+    margin: 10px auto;
+}
+
+.btn-img,
+.btn-img1{
+    width: 150px;
+    height: 150px;
+}
+
+.product-img{
+    width: 100%;
+    height: auto;
+}
+
+.category-name{
+    text-align: center;
+}
+/* home 3 section */
+.home-page2{
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.left1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.right1{
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+}
+
+.home-img1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero-btn1{
+    width: 90%;
+    margin: 20px auto;
+    display: block;
+}
+
+/* home 4 section */
+.category-card1{
+    width: 90%;
+    margin: 15px auto;
+}
+
+.title{
+    font-size: 0.9rem;
+    text-align: center;
+}
+/* home section 5 */
+
+.cusomer-card{
+    width: 90%;
+    height: auto;
+    flex-direction: column;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.customer-img{
+    width: 70%;
+    height: auto;
+}
+
+.cusomer-card h1{
+    font-size: 0.9rem;
+    padding: 15px;
+}
+/* home 6 section */
+.home-page3{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+/* home 7 section */
+.subscribe{
+    height: auto;
+    padding: 20px;
+}
+
+.sub-title{
+    font-size: 0.9rem;
+    padding: 15px;
+    line-height: 1.5;
+}
+
+.sub-btn{
+    width: 90%;
+    padding: 0.9rem;
+}
+ /* footer section start */
+
+ .insta-row{
+    flex-wrap: wrap;
+}
+
+.insta-img{
+    width: 50%;
+    height: 180px;
+}
+
+.insta-btn{
+    padding: 10px 20px;
+    font-size: 0.9rem;
+}
+
+.footer{
+    padding: 30px 20px;
+}
+
+.footer-container{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-box{
+    width: 100%;
+    text-align: center;
+}
+
+.footer-box h1,
+.footer-box h2{
+    margin-left: 0;
+}
+
+.product-cards{
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Reg page start */
+.half-layout{
+    margin-top: 50%;
+    width: 95%;
+    height: auto;
+    padding: 20px 10px;
+}
+
+.reg-card{
+    
+    margin: 20px 10px;
+}
+
+.reg-heading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.control-form{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.text-form{
+    width: 100%;
+    margin: 10px 0;
+}
+
+.reg-btn{
+    width: 100%;
+    padding: 15px;
+}
+
+.half-layout i{
+    font-size: 1.5rem;
+}
+/* admin page start */
+ .adminsection{
+    margin: 20px 10px;
+}
+
+.admin-page{
+    width: 95%;
+    height: auto;
+    padding: 15px;
+    margin-top: 60%;
+}
+
+.admin-heading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Admin-form{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.admin-btn{
+    width: 100%;
+    padding: 15px;
+}
+
+.admin-page i{
+    font-size: 1.5rem;
+}
+
+.admin-card{
+    margin-top: 20px;
+}
+
+/* otp page start */
+.otp-page{
+    width: 95%;
+    height: auto;
+    padding: 15px;
+}
+
+.otp-card{
+    padding: 10px;
+}
+
+.otp-img{
+    width: 60%;
+    height: auto;
+}
+
+.otp-heading{
+    font-size: 0.9rem;
+}
+
+p{
+    font-size: 0.9rem;
+}
+
+.otp-form{
+    width: 100%;
+    padding: 12px;
+}
+
+.otp-btn{
+    width: 100%;
+    margin: 10px 0;
+}
+/* addproduct page */
+
+.addproduct-main{
+    padding: 20px 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+.addproduct-category{
+    width: 95%;
+    margin-top: 50%;
+    padding: 20px 15px;
+    gap: 15px;
+}
+
+.product-cate{
+    width: 100%;
+    height: 42px;
+    font-size: 14px;
+}
+
+.product-btn{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+}
+/* product page */
+
+.product-video{
+    height: 40vh;
+    margin-top:24%;
+}
+
+.text{
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    text-align: center;
+    width: 90%;
+}
+
+.product-card{
+    width: 90%;
+    margin-top:25%;
+}
+
+.product-imgpath{
+    height: 220px;
+}
+
+.card-title{
+    width: auto;
+    font-size: 0.9rem;
+}
+
+.card-title1{
+    font-size: 0.9rem;
+    margin-left: 10px;
+}
+
+.card-btn{
+    width: 90%;
+    margin: 10px auto;
+    display: block;
+}
+
+.row{
+    flex-direction: column;
+    align-items: center;
+}
+/* login page */
+.login-row{
+    flex-direction: column;
+}
+
+.login-layout{
+    width: 100%;
+    height: auto;
+    margin-top:50%;
+}
+
+.login-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.login-heading{
+    font-size: 2rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.login-card{
+    margin: 15px;
+    padding: 20px;
+}
+
+.login-control{
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 12px;
+}
+
+.login-layout p{
+    text-align: center;
+    justify-content: center;
+}
+
+.login-form i{
+    top: 40px;
+    right: 15px;
+}
+/* profile page start */
+.profile-main{
+    padding: 20px 10px;
+}
+
+.myprofile-page{
+    width: 95%;
+    padding: 20px;
+}
+
+.profile-img{
+    width: 90px;
+    height: 90px;
+}
+
+.profile-control{
+    padding: 10px;
+    font-size: 0.9rem;
+}
+
+.profile-form button{
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+}
+/* cart Items page */
+.cart-page{
+    width: 100%;
+    margin-top: 41%;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+
+.cart-card{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.table-img{
+    width: 100%;
+    height: 220px;
+}
+
+.cart-details{
+    width: 100%;
+    align-items: center;
+}
+
+.qty-box{
+    justify-content: center;
+}
+
+.remove-btn{
+    width: 100%;
+}
+
+.cart-right{
+    width: 100%;
+}
+
+.summary-box{
+    position: relative;
+    top: 0;
+    padding: 20px;
+}
+
+.order-btn{
+    padding: 12px;
+    font-size: 1rem;
+}
+}
