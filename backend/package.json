@@ -19,6 +19,7 @@
     "init": "^0.1.2",
     "jsonwebtoken": "^9.0.3",
     "multer": "^2.1.1",
+    "mysql2": "^3.22.5",
     "nodemailer": "^8.0.7",
     "nodemon": "^3.1.14",
     "path": "^0.12.7",
