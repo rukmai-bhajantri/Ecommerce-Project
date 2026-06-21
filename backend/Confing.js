@@ -8,7 +8,7 @@ const db=mysql.createConnection({
     database:process.env.DB_DATABASE
 })
 db.connect((err)=>{
-    if(err)console.log("Error")
+    if(err)console.log("Error",err)
         else console.log("Server connected")
 })
 module.exports=db;
