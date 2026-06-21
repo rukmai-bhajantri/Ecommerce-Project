@@ -1,2 +1,3 @@
-const API = "https://ecommerce-project-7r7p.onrender.com";
+const API = "https://ecommerce-backend-ijvd.onrender.com";
+
 export default API;
