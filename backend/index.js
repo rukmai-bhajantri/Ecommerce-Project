@@ -30,7 +30,7 @@ const transporter = nodemail.createTransport({
 })
 app.get('/', (req, res) => {
     res.send
-        ("hello")
+        ("rukmai")
 })
 
 let findexstingemail = (useremail, callback) => {
@@ -300,7 +300,6 @@ db.query(sql,[cid],(err)=>{
 })
 
 
-app.listen(5000, (err) => {
-    if (err) console.log(err)
-    else console.log("5000")
-})
+app.listen(process.env.PORT || 5000, () => {
+    console.log("Server running");
+});
